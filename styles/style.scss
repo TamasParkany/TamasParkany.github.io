@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* index */
+
+#display {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#choice {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice__upper {
+  margin: 80px auto 0 auto;
+}
+
+.choice__lower {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  width: 150px;
+  height: 75px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ammo / path */
+
+#headsup {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#height {
+  flex: 0 0 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#direction {
+  flex: 0 0 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__display {
+    font-size: 128px;
+  }
+}
+
+#notification {
+  flex: 0 0 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
