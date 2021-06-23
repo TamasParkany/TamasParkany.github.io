@@ -6,10 +6,21 @@
 
 :root {
   user-select: none;
+  font-family: "M PLUS 1p", sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+input {
+  width: 125px;
+  height: 40px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+  outline: none;
 }
 
 /* index */
@@ -19,23 +30,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("../images/eidolon-background.jpg") no-repeat 35%;
+  background-size: cover;
 }
 
 #choice {
   width: 50%;
   height: 50%;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.choice__upper {
-  margin: 80px auto 0 auto;
-}
-
-.choice__lower {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -43,14 +44,69 @@ a {
   align-items: center;
 }
 
+@media screen and (max-height: 414px) {
+  #choice {
+    flex-direction: row;
+  }
+}
+
 .team {
   width: 150px;
   height: 75px;
-  border: 1px solid black;
-  margin: 10px;
+  margin: 5px;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+#paths {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#morse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    &::after {
+      content: "Doubletap to save";
+      position: absolute;
+      top: 0;
+      right: -30px;
+      transform: rotateZ(40deg);
+      font-size: 10px;
+    }
+  }
+  &__buttons {
+    width: 150px;
+    height: 75px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__short {
+    width: 75px;
+    height: 75px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  &__long {
+    @extend #morse__short;
+  }
 }
 
 /* ammo / path */
@@ -64,25 +120,46 @@ a {
 }
 
 #height {
-  flex: 0 0 33.33%;
+  flex: 0 0 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  &__display {
+    font-size: 32px;
+    font-weight: bold;
+  }
 }
 
 #direction {
-  flex: 0 0 33.33%;
+  flex: 0 0 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   &__display {
+    text-align: center;
     font-size: 128px;
+    font-weight: bold;
   }
 }
 
-#notification {
-  flex: 0 0 33.33%;
+#parts {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+#notification {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  &__type {
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+  }
+  &__info {
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+  }
 }

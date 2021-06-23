@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Eidolon Helper</title>
-</head>
-<body>
+  </head>
+  <body>
     <script defer src="./app.js"></script>
     <main id="display">
-        <div id="choice">
-            <div class="choice__upper">
-                <h2>Choose:</h2>
-            </div>
-            <div class="choice__lower">
-                <a class="team" href="./path/path.html">Path</a>
-                <a class="team" href="./ammo/ammo.html">Ammo</a>
-            </div>
+      <div id="choice">
+        <div id="paths">
+          <a class="team" href="./path/path.html">Main Path</a>
+          <a class="team" href="./ammo/ammo.html">Ammo Path</a>
         </div>
+        <div id="morse">
+          <div id="morse__container" class="team">
+            <label for="morse__input">Morse Code</label>
+            <input
+              id="morse__input"
+              type="text"
+              maxlength="5"
+              placeholder="here..."
+            />
+          </div>
+          <div id="morse__buttons">
+            <button type="button" id="morse__short" data-morse="E">E</button>
+            <button type="button" id="morse__long" data-morse="T">T</button>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>

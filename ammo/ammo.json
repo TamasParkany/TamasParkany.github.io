@@ -1,0 +1,67 @@
+[
+  {
+    "height": "97m",
+    "direction": ["S", "R"],
+    "type": "Ammo Box 2",
+    "info": ""
+  },
+  { "height": "363m", "direction": ["S"], "type": "Ammo Box 3", "info": "" },
+  {
+    "height": "563m",
+    "direction": ["S", "S", "R", "R", "L"],
+    "type": "Ammo Box 4",
+    "info": "Build platform LEFT at ammo box, to jump back to path"
+  },
+  {
+    "height": "737m",
+    "direction": ["S", "R"],
+    "type": "Ammo Box 5",
+    "info": ""
+  },
+  {
+    "height": "768m",
+    "direction": ["S", "S", "R", "R", "L"],
+    "type": "Ammo Box 6",
+    "info": "Build platform LEFT at ammo box, to jump back to path"
+  },
+  { "height": "880m", "direction": ["S"], "type": "Ammo Box 7", "info": "" },
+  {
+    "height": "916m",
+    "direction": ["S", "R"],
+    "type": "Ammo Box 8",
+    "info": ""
+  },
+  { "height": "977m", "direction": ["S"], "type": "Ammo Box 9", "info": "" },
+  { "height": "1085m", "direction": ["R"], "type": "Ammo Box 10", "info": "" },
+  { "height": "1172m", "direction": ["R"], "type": "Ammo Box 11", "info": "" },
+  {
+    "height": "1264m",
+    "direction": ["L", "L"],
+    "type": "Ammo Box 12",
+    "info": "3 people build LEFT, 1 stays main"
+  },
+  {
+    "height": "1341m",
+    "direction": ["S", "S"],
+    "type": "Ammo Box 13 ???",
+    "info": ""
+  },
+  {
+    "height": "1413m",
+    "direction": ["S", "R"],
+    "type": "Ammo Box 14???",
+    "info": ""
+  },
+  {
+    "height": "1484m",
+    "direction": ["S"],
+    "type": "Ammo Box 15???",
+    "info": ""
+  },
+  {
+    "height": "1541m",
+    "direction": ["L"],
+    "type": "Ammo Box 16???",
+    "info": ""
+  }
+]

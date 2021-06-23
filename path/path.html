@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles/style.css" />
-    <title>Eidolon Helper - Path</title>
+    <title>Eidolon Helper - Main Path</title>
   </head>
   <body>
     <script defer src="./path.js"></script>
     <main id="headsup">
       <section id="height"><p id="height__display">5m</p></section>
-      <section id="direction"><p id="direction__display">S</p></section>
+      <section id="direction">
+        <div id="direction__container">
+          <p id="direction__display">S</p>
+          <div id="parts"></div>
+        </div>
+      </section>
       <section id="notification">
-        <p id="notification__display"></p>
+        <div id="notification__container">
+          <p id="notification__type">
+            <img src="../images/info.gif" style="width: 64px" />
+          </p>
+          <p id="notification__info">Lion Gates</p>
+        </div>
       </section>
     </main>
   </body>

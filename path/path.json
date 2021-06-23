@@ -1,0 +1,666 @@
+[
+  { "height": "5m", "direction": ["S"], "type": "Info", "info": "Lion gate" },
+  { "height": "10m", "direction": ["S"], "type": "", "info": "" },
+  {
+    "height": "15m",
+    "direction": ["R"],
+    "type": "Info",
+    "info": "Dino Shrine"
+  },
+  { "height": "20m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "25m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "30m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "35m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "40m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "45m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "51m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "56m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "61m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "66m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "71m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "76m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "81m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "86m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "92m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "97m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "102m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "107m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "112m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "117m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "122m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "127m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "133m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "138m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "143m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "148m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "153m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "158m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "163m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "168m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "173m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "179m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "184m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "189m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "194m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "199m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "204m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "209m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "214m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "220m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "225m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "230m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "235m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "240m",
+    "direction": ["R"],
+    "type": "Info",
+    "info": "Rune Inscription"
+  },
+  { "height": "245m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "250m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "255m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "261m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "266m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "271m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "276m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "281m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "286m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "291m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "296m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "301m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "307m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "312m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "317m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "322m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "327m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "332m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "337m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "342m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "348m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "353m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "358m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "363m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "368m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "373m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "378m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "383m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "389m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "394m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "399m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "404m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "409m",
+    "direction": ["S"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "414m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "419m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "424m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "429m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "435m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "440m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "445m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "450m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "455m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "460m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "465m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "470m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "476m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "481m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "486m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "491m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "496m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "501m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "506m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "511m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "517m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "522m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "527m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "532m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "537m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "542m", "direction": ["BACK"], "type": "", "info": "" },
+  { "height": "547m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "552m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "557m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "563m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "568m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "573m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "578m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "583m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "588m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "593m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "598m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "604m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "609m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "614m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "619m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "624m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "629m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "634m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "639m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "645m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "650m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "655m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "660m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "665m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "670m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "675m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "680m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "685m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "691m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "696m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "701m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "706m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "711m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "716m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "721m",
+    "direction": ["L"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "726m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "732m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "737m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "742m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "747m",
+    "direction": ["S", "S"],
+    "type": "Info",
+    "info": "Lion gate, platforms, gnome"
+  },
+  { "height": "752m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "757m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "762m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "768m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "773m",
+    "direction": ["S"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "778m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "783m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "788m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "793m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "798m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "803m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "809m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "814m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "819m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "824m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "829m",
+    "direction": ["R"],
+    "type": "Info",
+    "info": "Shark rune"
+  },
+  { "height": "834m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "839m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "844m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "849m", "direction": ["S"], "type": "", "info": "" },
+  {
+    "height": "855m",
+    "direction": ["S"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "860m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "865m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "870m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "875m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "880m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "885m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "890m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "896m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "901m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "906m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "911m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "916m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "921m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "926m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "931m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "937m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "942m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "947m",
+    "direction": ["S"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "952m",
+    "direction": ["S"],
+    "type": "Danger",
+    "info": "Fire HERE and NEXT"
+  },
+  {
+    "height": "957m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "962m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "967m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "972m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "977m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "982m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "988m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "993m",
+    "direction": ["S"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "998m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1003m",
+    "direction": ["L"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1008m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1013m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1018m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1023m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "1029m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1034m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE and NEXT"
+  },
+  {
+    "height": "1039m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": " Fire HERE, Barbed wire NEXT "
+  },
+  {
+    "height": "1044m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Barbed wire HERE, SHOOT V1!!!"
+  },
+  { "height": "1049m", "direction": ["BACK"], "type": "", "info": "" },
+  { "height": "1054m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1059m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1064m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1069m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1074m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1080m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1085m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1090m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1095m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1100m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1105m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1110m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1115m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1120m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1126m",
+    "direction": ["L"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1131m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE and NEXT"
+  },
+  {
+    "height": "1136m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1141m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1146m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1151m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1156m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1161m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1167m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1172m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1177m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1182m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1187m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1192m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1197m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1202m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1208m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1213m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1218m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1223m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1228m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1233m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1238m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1243m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1248m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1254m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "1259m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT, Prepare split: 3 ammo, 1 main"
+  },
+  {
+    "height": "1264m",
+    "direction": ["S"],
+    "type": "Danger",
+    "info": "Fire HERE and NEXT, main builder: 2 hits LEFT, then go MAIN"
+  },
+  {
+    "height": "1269m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1274m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1279m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1284m",
+    "direction": ["L"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "1289m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  {
+    "height": "1295m",
+    "direction": ["R", "S", "L", "S"],
+    "type": "Warning",
+    "info": "Platforms, Fire at stairs"
+  },
+  {
+    "height": "1300m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1305m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1310m",
+    "direction": ["L"],
+    "type": "Info",
+    "info": "Stairs stop crumbling (TIP: destroy all V1's from now on)"
+  },
+  { "height": "1315m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1320m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1325m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1331m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1337m",
+    "direction": ["L"],
+    "type": "",
+    "info": ""
+  },
+  {
+    "height": "1341m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1346m",
+    "direction": ["S"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1351m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1356m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1361m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1366m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1372m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1377m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1382m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1387m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1392m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1397m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1402m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1407m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1413m",
+    "direction": ["R", "S", "R", "S", "L", "R"],
+    "type": "Danger",
+    "info": "Fire HERE, Bait V1, Barbed wire at stairs"
+  },
+  { "height": "1418m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1423m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1428m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1433m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1438m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1443m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1449m",
+    "direction": ["S"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1453m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  { "height": "1459m", "direction": ["S"], "type": "", "info": "" },
+  { "height": "1464m", "direction": ["L"], "type": "", "info": "" },
+  {
+    "height": "1469m",
+    "direction": ["L"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "1474m",
+    "direction": ["R"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "1479m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1484m", "direction": ["S"], "type": "", "info": "" },
+  {
+    "height": "1489m",
+    "direction": ["R"],
+    "type": "",
+    "info": ""
+  },
+  { "height": "1494m", "direction": ["R"], "type": "", "info": "" },
+  { "height": "1500m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1505m", "direction": ["L"], "type": "", "info": "" },
+  { "height": "1510m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "1515m",
+    "direction": ["?"],
+    "type": "Info",
+    "info": "MORSE PUZZLE, after puzzle go RIGHT, build LEFT at end"
+  },
+  { "height": "1520m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "1525m",
+    "direction": ["R"],
+    "type": "Warning",
+    "info": "Barbed wire NEXT"
+  },
+  {
+    "height": "1530m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  { "height": "1535m", "direction": ["R"], "type": "", "info": "" },
+  {
+    "height": "1541m",
+    "direction": ["L"],
+    "type": "",
+    "info": ""
+  },
+  {
+    "height": "1546m",
+    "direction": ["R", "L"],
+    "type": "Info",
+    "info": "Invisible path cca. 3 squares RIGHT to the gnome, build LEFT at gnome"
+  },
+  {
+    "height": "1551m",
+    "direction": ["S", "S", "R"],
+    "type": "Warning",
+    "info": "Platforms, Barbed wire at stairs"
+  },
+  {
+    "height": "1556m",
+    "direction": ["L"],
+    "type": "Danger",
+    "info": "Barbed wire HERE"
+  },
+  {
+    "height": "1561m",
+    "direction": ["BACK"],
+    "type": "Warning",
+    "info": "Fire NEXT"
+  },
+  {
+    "height": "1566m",
+    "direction": ["BACK"],
+    "type": "Danger",
+    "info": "Fire HERE"
+  },
+  {
+    "height": "1571m",
+    "direction": ["S", "L", "S", "S", "S", "R", "R", "L"],
+    "type": "Info",
+    "info": "Platforms, build at gnome"
+  },
+  {
+    "height": "1576m",
+    "direction": ["ALL"],
+    "type": "Info",
+    "info": "Each player goes different direction"
+  },
+  {
+    "height": "1581m",
+    "direction": ["UP"],
+    "type": "Danger",
+    "info": "Break glass above at the same time"
+  }
+]
