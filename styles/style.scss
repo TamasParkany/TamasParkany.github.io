@@ -6,7 +6,15 @@
 
 :root {
   user-select: none;
+  touch-action: manipulation;
   font-family: "M PLUS 1p", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
 }
 
 a {
@@ -26,9 +34,10 @@ input {
 /* index */
 
 #display {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: url("../images/eidolon-background.jpg") no-repeat 35%;
@@ -113,7 +122,7 @@ input {
 /* ammo / path */
 
 #headsup {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;

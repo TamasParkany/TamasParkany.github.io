@@ -6,7 +6,7 @@ const long = document.getElementById("morse__long");
 short.addEventListener("click", updateInput);
 long.addEventListener("click", updateInput);
 morseContainer.addEventListener("dblclick", saveMorseMouse);
-morseContainer.addEventListener("touchstart", saveMorseTouch);
+morseContainer.addEventListener("touchend", saveMorseTouch);
 
 function updateInput(e) {
   if (morseInput.value.length < 5) {
@@ -36,8 +36,8 @@ function saveMorseTouch(e) {
   if (!tapped) {
     tapped = setTimeout(function () {
       tapped = null;
-      //insert things you want to do when single tapped
-    }, 400); //wait 400ms then run single click code
+      return;
+    }, 600); //wait 400ms then run single click code
   } else {
     clearTimeout(tapped); //stop single tap callback
     tapped = null;
