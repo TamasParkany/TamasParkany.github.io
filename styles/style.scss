@@ -27,6 +27,7 @@ input {
 
 #display {
   height: 100vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,6 +114,7 @@ input {
 
 #headsup {
   height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

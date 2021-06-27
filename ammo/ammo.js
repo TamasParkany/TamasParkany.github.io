@@ -4,7 +4,32 @@ const notificationType = document.getElementById("notification__type");
 const notificationInfo = document.getElementById("notification__info");
 const parts = document.getElementById("parts");
 
-window.addEventListener("click", click);
+let hasTouchScreen = false;
+
+if ("maxTouchPoints" in navigator) {
+  hasTouchScreen = navigator.maxTouchPoints > 0;
+} else if ("msMaxTouchPoints" in navigator) {
+  hasTouchScreen = navigator.msMaxTouchPoints > 0;
+} else {
+  let mQ = window.matchMedia && matchMedia("(pointer:coarse)");
+  if (mQ && mQ.media === "(pointer:coarse)") {
+    hasTouchScreen = !!mQ.matches;
+  } else if ("orientation" in window) {
+    hasTouchScreen = true; // deprecated, but good fallback
+  } else {
+    // Only as a last resort, fall back to user agent sniffing
+    let UA = navigator.userAgent;
+    hasTouchScreen =
+      /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
+      /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA);
+  }
+}
+
+if (hasTouchScreen) {
+  window.addEventListener("touchstart", click);
+} else {
+  window.addEventListener("click", click);
+}
 
 let i = 0;
 let j = 0;
@@ -16,7 +41,11 @@ fetch("./ammo.json")
 
 function click() {
   if (i == data.length - 1) {
-    window.removeEventListener("click", click);
+    if (hasTouchScreen) {
+      window.removeEventListener("touchstart", click);
+    } else {
+      window.removeEventListener("click", click);
+    }
     heightDisplay.innerText = "";
     directionDisplay.innerText = "END";
     notificationType.innerHTML = `<button onclick="window.location='../index.html'" style="width:100px;height:50px;">Return</button>`;

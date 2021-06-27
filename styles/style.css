@@ -30,6 +30,7 @@ input {
 /* index */
 #display {
   height: 100vh;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,6 +171,7 @@ input {
 /* ammo / path */
 #headsup {
   height: 100vh;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

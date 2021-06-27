@@ -30,7 +30,6 @@ function saveMorseMouse() {
   }
 }
 
-console.log(typeof localStorage.getItem("eidolon_morse"));
 let tapped = false;
 
 function saveMorseTouch(e) {
@@ -38,12 +37,23 @@ function saveMorseTouch(e) {
     tapped = setTimeout(function () {
       tapped = null;
       //insert things you want to do when single tapped
-    }, 300); //wait 300ms then run single click code
+    }, 400); //wait 400ms then run single click code
   } else {
     clearTimeout(tapped); //stop single tap callback
     tapped = null;
+    if (morseInput.value.length < 5) {
+      morseInput.value = "";
+      morseInput.setAttribute("placeholder", "Too short");
+    }
+    if (morseInput.value.length == 5 && !/[ETet]{5}/.test(morseInput.value)) {
+      morseInput.value = "";
+      morseInput.setAttribute("placeholder", "Bad form");
+    }
     if (morseInput.value.length == 5 && /[ETet]{5}/.test(morseInput.value)) {
-      localStorage.setItem("eidolon_morse", `${morseInput.value}`);
+      localStorage.setItem(
+        "eidolon_morse",
+        `${morseInput.value.toUpperCase()}`
+      );
       morseInput.value = "";
       morseInput.setAttribute("placeholder", "Saved ✔️");
     }
